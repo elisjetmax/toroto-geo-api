@@ -1,0 +1,3753 @@
+{
+  "metadata": {
+    "name": "geospatial_interventions_dataset",
+    "version": "1.0",
+    "generated_at": "2026-04-14T02:11:12Z",
+    "record_count": 130,
+    "description": "Synthetic geospatial dataset for technical assessment. Includes point interventions, timestamps, attributes, and sample polygons for within-area queries."
+  },
+  "interventions": [
+    {
+      "id": "int_001",
+      "type": "intervention",
+      "subtype": "gavion",
+      "status": "in_progress",
+      "project_id": "proj_02",
+      "region": "north",
+      "coordinates": {
+        "lat": 20.726894,
+        "lon": -103.556495
+      },
+      "date": "2026-02-05",
+      "timestamp": "2026-02-05T07:00:00Z",
+      "operator_id": "fernando",
+      "priority": "high",
+      "source": "csv_upload",
+      "quality_score": 0.63,
+      "metadata": {
+        "photos_count": 0,
+        "notes_count": 1,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 2149,
+        "length_m": 626,
+        "estimated_benefit_score": 0.42
+      }
+    },
+    {
+      "id": "int_002",
+      "type": "intervention",
+      "subtype": "gavion",
+      "status": "validated",
+      "project_id": "proj_01",
+      "region": "central",
+      "coordinates": {
+        "lat": 20.568282,
+        "lon": -103.281551
+      },
+      "date": "2026-03-11",
+      "timestamp": "2026-03-11T13:00:00Z",
+      "operator_id": "carla",
+      "priority": "low",
+      "source": "api_partner",
+      "quality_score": 0.78,
+      "metadata": {
+        "photos_count": 2,
+        "notes_count": 1,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 1458,
+        "length_m": 114,
+        "estimated_benefit_score": 0.45
+      }
+    },
+    {
+      "id": "int_003",
+      "type": "intervention",
+      "subtype": "zanja",
+      "status": "validated",
+      "project_id": "proj_07",
+      "region": "central",
+      "coordinates": {
+        "lat": 20.531518,
+        "lon": -103.194602
+      },
+      "date": "2026-03-19",
+      "timestamp": "2026-03-19T08:00:00Z",
+      "operator_id": "alice",
+      "priority": "low",
+      "source": "api_partner",
+      "quality_score": 0.73,
+      "metadata": {
+        "photos_count": 5,
+        "notes_count": 4,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 2444,
+        "length_m": 206,
+        "estimated_benefit_score": 0.8
+      }
+    },
+    {
+      "id": "int_004",
+      "type": "intervention",
+      "subtype": "gavion",
+      "status": "planned",
+      "project_id": "proj_08",
+      "region": "west",
+      "coordinates": {
+        "lat": 20.513197,
+        "lon": -103.467225
+      },
+      "date": "2026-02-07",
+      "timestamp": "2026-02-07T02:00:00Z",
+      "operator_id": "carla",
+      "priority": "high",
+      "source": "csv_upload",
+      "quality_score": 0.68,
+      "metadata": {
+        "photos_count": 2,
+        "notes_count": 1,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 372,
+        "length_m": 633,
+        "estimated_benefit_score": 0.76
+      }
+    },
+    {
+      "id": "int_005",
+      "type": "intervention",
+      "subtype": "muestreo_suelo",
+      "status": "in_progress",
+      "project_id": "proj_04",
+      "region": "east",
+      "coordinates": {
+        "lat": 20.68899,
+        "lon": -103.459783
+      },
+      "date": "2026-03-01",
+      "timestamp": "2026-03-01T12:00:00Z",
+      "operator_id": "alice",
+      "priority": "low",
+      "source": "csv_upload",
+      "quality_score": 0.77,
+      "metadata": {
+        "photos_count": 0,
+        "notes_count": 1,
+        "offline_captured": false
+      },
+      "metrics": {
+        "samples": 7,
+        "depth_cm": 40,
+        "organic_matter_pct": 4.11
+      }
+    },
+    {
+      "id": "int_006",
+      "type": "intervention",
+      "subtype": "gavion",
+      "status": "completed",
+      "project_id": "proj_07",
+      "region": "central",
+      "coordinates": {
+        "lat": 20.825937,
+        "lon": -103.365605
+      },
+      "date": "2026-02-03",
+      "timestamp": "2026-02-03T04:00:00Z",
+      "operator_id": "diego",
+      "priority": "medium",
+      "source": "mobile_app",
+      "quality_score": 0.99,
+      "metadata": {
+        "photos_count": 1,
+        "notes_count": 4,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 452,
+        "length_m": 58,
+        "estimated_benefit_score": 0.89
+      }
+    },
+    {
+      "id": "int_007",
+      "type": "intervention",
+      "subtype": "reforestacion",
+      "status": "validated",
+      "project_id": "proj_08",
+      "region": "west",
+      "coordinates": {
+        "lat": 20.551723,
+        "lon": -103.497108
+      },
+      "date": "2026-03-29",
+      "timestamp": "2026-03-29T13:00:00Z",
+      "operator_id": "elena",
+      "priority": "high",
+      "source": "csv_upload",
+      "quality_score": 0.98,
+      "metadata": {
+        "photos_count": 6,
+        "notes_count": 0,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 5784,
+        "trees": 569,
+        "survival_rate": 0.83
+      }
+    },
+    {
+      "id": "int_008",
+      "type": "intervention",
+      "subtype": "presa_filtrante",
+      "status": "validated",
+      "project_id": "proj_05",
+      "region": "north",
+      "coordinates": {
+        "lat": 20.773396,
+        "lon": -103.417823
+      },
+      "date": "2026-02-07",
+      "timestamp": "2026-02-07T13:00:00Z",
+      "operator_id": "fernando",
+      "priority": "high",
+      "source": "mobile_app",
+      "quality_score": 0.81,
+      "metadata": {
+        "photos_count": 0,
+        "notes_count": 2,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 706,
+        "length_m": 392,
+        "estimated_benefit_score": 0.83
+      }
+    },
+    {
+      "id": "int_009",
+      "type": "intervention",
+      "subtype": "muestreo_biodiversidad",
+      "status": "validated",
+      "project_id": "proj_06",
+      "region": "north",
+      "coordinates": {
+        "lat": 20.690876,
+        "lon": -103.224904
+      },
+      "date": "2026-03-09",
+      "timestamp": "2026-03-09T00:00:00Z",
+      "operator_id": "alice",
+      "priority": "medium",
+      "source": "mobile_app",
+      "quality_score": 0.64,
+      "metadata": {
+        "photos_count": 4,
+        "notes_count": 0,
+        "offline_captured": true
+      },
+      "metrics": {
+        "species_count": 34,
+        "observations": 109,
+        "rare_species_flag": true
+      }
+    },
+    {
+      "id": "int_010",
+      "type": "intervention",
+      "subtype": "bordo",
+      "status": "in_progress",
+      "project_id": "proj_07",
+      "region": "east",
+      "coordinates": {
+        "lat": 20.848774,
+        "lon": -103.333109
+      },
+      "date": "2026-01-17",
+      "timestamp": "2026-01-17T04:00:00Z",
+      "operator_id": "elena",
+      "priority": "low",
+      "source": "api_partner",
+      "quality_score": 0.9,
+      "metadata": {
+        "photos_count": 5,
+        "notes_count": 1,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 1714,
+        "length_m": 697,
+        "estimated_benefit_score": 0.77
+      }
+    },
+    {
+      "id": "int_011",
+      "type": "intervention",
+      "subtype": "gavion",
+      "status": "planned",
+      "project_id": "proj_04",
+      "region": "east",
+      "coordinates": {
+        "lat": 20.654416,
+        "lon": -103.339767
+      },
+      "date": "2026-01-16",
+      "timestamp": "2026-01-16T07:00:00Z",
+      "operator_id": "alice",
+      "priority": "high",
+      "source": "mobile_app",
+      "quality_score": 0.62,
+      "metadata": {
+        "photos_count": 5,
+        "notes_count": 0,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 356,
+        "length_m": 42,
+        "estimated_benefit_score": 0.89
+      }
+    },
+    {
+      "id": "int_012",
+      "type": "intervention",
+      "subtype": "gavion",
+      "status": "in_progress",
+      "project_id": "proj_08",
+      "region": "central",
+      "coordinates": {
+        "lat": 20.522209,
+        "lon": -103.462778
+      },
+      "date": "2026-03-27",
+      "timestamp": "2026-03-27T15:00:00Z",
+      "operator_id": "elena",
+      "priority": "low",
+      "source": "csv_upload",
+      "quality_score": 0.92,
+      "metadata": {
+        "photos_count": 1,
+        "notes_count": 0,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 1845,
+        "length_m": 372,
+        "estimated_benefit_score": 0.64
+      }
+    },
+    {
+      "id": "int_013",
+      "type": "intervention",
+      "subtype": "reforestacion",
+      "status": "planned",
+      "project_id": "proj_06",
+      "region": "west",
+      "coordinates": {
+        "lat": 20.664829,
+        "lon": -103.246707
+      },
+      "date": "2026-03-28",
+      "timestamp": "2026-03-28T20:00:00Z",
+      "operator_id": "fernando",
+      "priority": "low",
+      "source": "mobile_app",
+      "quality_score": 0.69,
+      "metadata": {
+        "photos_count": 4,
+        "notes_count": 3,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 3656,
+        "trees": 207,
+        "survival_rate": 0.59
+      }
+    },
+    {
+      "id": "int_014",
+      "type": "intervention",
+      "subtype": "reforestacion",
+      "status": "planned",
+      "project_id": "proj_02",
+      "region": "central",
+      "coordinates": {
+        "lat": 20.58663,
+        "lon": -103.161263
+      },
+      "date": "2026-02-26",
+      "timestamp": "2026-02-26T17:00:00Z",
+      "operator_id": "alice",
+      "priority": "low",
+      "source": "mobile_app",
+      "quality_score": 0.77,
+      "metadata": {
+        "photos_count": 3,
+        "notes_count": 1,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 680,
+        "trees": 188,
+        "survival_rate": 0.64
+      }
+    },
+    {
+      "id": "int_015",
+      "type": "intervention",
+      "subtype": "muestreo_suelo",
+      "status": "validated",
+      "project_id": "proj_08",
+      "region": "central",
+      "coordinates": {
+        "lat": 20.851411,
+        "lon": -103.450811
+      },
+      "date": "2026-04-11",
+      "timestamp": "2026-04-11T14:00:00Z",
+      "operator_id": "fernando",
+      "priority": "low",
+      "source": "mobile_app",
+      "quality_score": 0.73,
+      "metadata": {
+        "photos_count": 0,
+        "notes_count": 4,
+        "offline_captured": true
+      },
+      "metrics": {
+        "samples": 11,
+        "depth_cm": 10,
+        "organic_matter_pct": 1.48
+      }
+    },
+    {
+      "id": "int_016",
+      "type": "intervention",
+      "subtype": "zanja",
+      "status": "planned",
+      "project_id": "proj_02",
+      "region": "south",
+      "coordinates": {
+        "lat": 20.668344,
+        "lon": -103.16297
+      },
+      "date": "2026-03-09",
+      "timestamp": "2026-03-09T05:00:00Z",
+      "operator_id": "alice",
+      "priority": "high",
+      "source": "mobile_app",
+      "quality_score": 0.77,
+      "metadata": {
+        "photos_count": 4,
+        "notes_count": 1,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 415,
+        "length_m": 439,
+        "estimated_benefit_score": 0.77
+      }
+    },
+    {
+      "id": "int_017",
+      "type": "intervention",
+      "subtype": "muestreo_biodiversidad",
+      "status": "in_progress",
+      "project_id": "proj_03",
+      "region": "east",
+      "coordinates": {
+        "lat": 20.700182,
+        "lon": -103.428297
+      },
+      "date": "2026-02-03",
+      "timestamp": "2026-02-03T06:00:00Z",
+      "operator_id": "diego",
+      "priority": "high",
+      "source": "api_partner",
+      "quality_score": 0.73,
+      "metadata": {
+        "photos_count": 2,
+        "notes_count": 0,
+        "offline_captured": true
+      },
+      "metrics": {
+        "species_count": 32,
+        "observations": 84,
+        "rare_species_flag": true
+      }
+    },
+    {
+      "id": "int_018",
+      "type": "intervention",
+      "subtype": "muestreo_biodiversidad",
+      "status": "planned",
+      "project_id": "proj_05",
+      "region": "south",
+      "coordinates": {
+        "lat": 20.523074,
+        "lon": -103.473712
+      },
+      "date": "2026-02-03",
+      "timestamp": "2026-02-03T04:00:00Z",
+      "operator_id": "carla",
+      "priority": "low",
+      "source": "csv_upload",
+      "quality_score": 0.93,
+      "metadata": {
+        "photos_count": 5,
+        "notes_count": 2,
+        "offline_captured": true
+      },
+      "metrics": {
+        "species_count": 38,
+        "observations": 43,
+        "rare_species_flag": true
+      }
+    },
+    {
+      "id": "int_019",
+      "type": "intervention",
+      "subtype": "presa_filtrante",
+      "status": "completed",
+      "project_id": "proj_04",
+      "region": "east",
+      "coordinates": {
+        "lat": 20.834715,
+        "lon": -103.508412
+      },
+      "date": "2026-01-15",
+      "timestamp": "2026-01-15T03:00:00Z",
+      "operator_id": "elena",
+      "priority": "high",
+      "source": "csv_upload",
+      "quality_score": 0.7,
+      "metadata": {
+        "photos_count": 5,
+        "notes_count": 2,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 1108,
+        "length_m": 62,
+        "estimated_benefit_score": 0.45
+      }
+    },
+    {
+      "id": "int_020",
+      "type": "intervention",
+      "subtype": "presa_filtrante",
+      "status": "completed",
+      "project_id": "proj_08",
+      "region": "south",
+      "coordinates": {
+        "lat": 20.649187,
+        "lon": -103.445761
+      },
+      "date": "2026-01-01",
+      "timestamp": "2026-01-01T10:00:00Z",
+      "operator_id": "fernando",
+      "priority": "high",
+      "source": "api_partner",
+      "quality_score": 0.78,
+      "metadata": {
+        "photos_count": 0,
+        "notes_count": 0,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 690,
+        "length_m": 568,
+        "estimated_benefit_score": 0.42
+      }
+    },
+    {
+      "id": "int_021",
+      "type": "intervention",
+      "subtype": "zanja",
+      "status": "completed",
+      "project_id": "proj_06",
+      "region": "east",
+      "coordinates": {
+        "lat": 20.629618,
+        "lon": -103.324389
+      },
+      "date": "2026-02-25",
+      "timestamp": "2026-02-25T04:00:00Z",
+      "operator_id": "alice",
+      "priority": "low",
+      "source": "api_partner",
+      "quality_score": 0.71,
+      "metadata": {
+        "photos_count": 0,
+        "notes_count": 2,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 713,
+        "length_m": 252,
+        "estimated_benefit_score": 0.89
+      }
+    },
+    {
+      "id": "int_022",
+      "type": "intervention",
+      "subtype": "zanja",
+      "status": "in_progress",
+      "project_id": "proj_04",
+      "region": "east",
+      "coordinates": {
+        "lat": 20.848134,
+        "lon": -103.21076
+      },
+      "date": "2026-04-23",
+      "timestamp": "2026-04-23T13:00:00Z",
+      "operator_id": "diego",
+      "priority": "medium",
+      "source": "mobile_app",
+      "quality_score": 0.91,
+      "metadata": {
+        "photos_count": 0,
+        "notes_count": 3,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 2007,
+        "length_m": 237,
+        "estimated_benefit_score": 0.51
+      }
+    },
+    {
+      "id": "int_023",
+      "type": "intervention",
+      "subtype": "gavion",
+      "status": "planned",
+      "project_id": "proj_06",
+      "region": "south",
+      "coordinates": {
+        "lat": 20.827343,
+        "lon": -103.41365
+      },
+      "date": "2026-04-16",
+      "timestamp": "2026-04-16T07:00:00Z",
+      "operator_id": "diego",
+      "priority": "medium",
+      "source": "mobile_app",
+      "quality_score": 0.98,
+      "metadata": {
+        "photos_count": 2,
+        "notes_count": 2,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 2276,
+        "length_m": 349,
+        "estimated_benefit_score": 0.94
+      }
+    },
+    {
+      "id": "int_024",
+      "type": "intervention",
+      "subtype": "muestreo_suelo",
+      "status": "planned",
+      "project_id": "proj_07",
+      "region": "north",
+      "coordinates": {
+        "lat": 20.538223,
+        "lon": -103.140524
+      },
+      "date": "2026-01-23",
+      "timestamp": "2026-01-23T18:00:00Z",
+      "operator_id": "elena",
+      "priority": "medium",
+      "source": "api_partner",
+      "quality_score": 0.91,
+      "metadata": {
+        "photos_count": 3,
+        "notes_count": 4,
+        "offline_captured": true
+      },
+      "metrics": {
+        "samples": 13,
+        "depth_cm": 20,
+        "organic_matter_pct": 3.04
+      }
+    },
+    {
+      "id": "int_025",
+      "type": "intervention",
+      "subtype": "gavion",
+      "status": "completed",
+      "project_id": "proj_06",
+      "region": "west",
+      "coordinates": {
+        "lat": 20.751863,
+        "lon": -103.566756
+      },
+      "date": "2026-04-29",
+      "timestamp": "2026-04-29T17:00:00Z",
+      "operator_id": "alice",
+      "priority": "high",
+      "source": "csv_upload",
+      "quality_score": 0.87,
+      "metadata": {
+        "photos_count": 0,
+        "notes_count": 2,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 1752,
+        "length_m": 344,
+        "estimated_benefit_score": 0.63
+      }
+    },
+    {
+      "id": "int_026",
+      "type": "intervention",
+      "subtype": "terraza",
+      "status": "in_progress",
+      "project_id": "proj_05",
+      "region": "central",
+      "coordinates": {
+        "lat": 20.603136,
+        "lon": -103.511493
+      },
+      "date": "2026-02-23",
+      "timestamp": "2026-02-23T21:00:00Z",
+      "operator_id": "elena",
+      "priority": "medium",
+      "source": "api_partner",
+      "quality_score": 0.93,
+      "metadata": {
+        "photos_count": 2,
+        "notes_count": 2,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 1840,
+        "length_m": 603,
+        "estimated_benefit_score": 0.75
+      }
+    },
+    {
+      "id": "int_027",
+      "type": "intervention",
+      "subtype": "bordo",
+      "status": "in_progress",
+      "project_id": "proj_06",
+      "region": "north",
+      "coordinates": {
+        "lat": 20.61271,
+        "lon": -103.373114
+      },
+      "date": "2026-03-28",
+      "timestamp": "2026-03-28T06:00:00Z",
+      "operator_id": "carla",
+      "priority": "low",
+      "source": "mobile_app",
+      "quality_score": 0.87,
+      "metadata": {
+        "photos_count": 1,
+        "notes_count": 1,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 180,
+        "length_m": 57,
+        "estimated_benefit_score": 0.54
+      }
+    },
+    {
+      "id": "int_028",
+      "type": "intervention",
+      "subtype": "terraza",
+      "status": "in_progress",
+      "project_id": "proj_07",
+      "region": "west",
+      "coordinates": {
+        "lat": 20.667749,
+        "lon": -103.193615
+      },
+      "date": "2026-01-10",
+      "timestamp": "2026-01-10T14:00:00Z",
+      "operator_id": "diego",
+      "priority": "low",
+      "source": "mobile_app",
+      "quality_score": 0.86,
+      "metadata": {
+        "photos_count": 0,
+        "notes_count": 0,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 976,
+        "length_m": 190,
+        "estimated_benefit_score": 0.86
+      }
+    },
+    {
+      "id": "int_029",
+      "type": "intervention",
+      "subtype": "reforestacion",
+      "status": "validated",
+      "project_id": "proj_06",
+      "region": "south",
+      "coordinates": {
+        "lat": 20.747228,
+        "lon": -103.363098
+      },
+      "date": "2026-03-13",
+      "timestamp": "2026-03-13T07:00:00Z",
+      "operator_id": "diego",
+      "priority": "medium",
+      "source": "api_partner",
+      "quality_score": 0.92,
+      "metadata": {
+        "photos_count": 4,
+        "notes_count": 3,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 1503,
+        "trees": 506,
+        "survival_rate": 0.68
+      }
+    },
+    {
+      "id": "int_030",
+      "type": "intervention",
+      "subtype": "bordo",
+      "status": "in_progress",
+      "project_id": "proj_02",
+      "region": "east",
+      "coordinates": {
+        "lat": 20.76734,
+        "lon": -103.19796
+      },
+      "date": "2026-02-05",
+      "timestamp": "2026-02-05T16:00:00Z",
+      "operator_id": "diego",
+      "priority": "high",
+      "source": "csv_upload",
+      "quality_score": 0.71,
+      "metadata": {
+        "photos_count": 2,
+        "notes_count": 2,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 646,
+        "length_m": 164,
+        "estimated_benefit_score": 0.53
+      }
+    },
+    {
+      "id": "int_031",
+      "type": "intervention",
+      "subtype": "terraza",
+      "status": "completed",
+      "project_id": "proj_07",
+      "region": "central",
+      "coordinates": {
+        "lat": 20.746522,
+        "lon": -103.256676
+      },
+      "date": "2026-01-09",
+      "timestamp": "2026-01-09T13:00:00Z",
+      "operator_id": "diego",
+      "priority": "low",
+      "source": "mobile_app",
+      "quality_score": 0.93,
+      "metadata": {
+        "photos_count": 3,
+        "notes_count": 4,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 2438,
+        "length_m": 399,
+        "estimated_benefit_score": 0.67
+      }
+    },
+    {
+      "id": "int_032",
+      "type": "intervention",
+      "subtype": "gavion",
+      "status": "validated",
+      "project_id": "proj_07",
+      "region": "south",
+      "coordinates": {
+        "lat": 20.836087,
+        "lon": -103.43611
+      },
+      "date": "2026-02-19",
+      "timestamp": "2026-02-19T13:00:00Z",
+      "operator_id": "carla",
+      "priority": "medium",
+      "source": "mobile_app",
+      "quality_score": 0.76,
+      "metadata": {
+        "photos_count": 5,
+        "notes_count": 3,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 1994,
+        "length_m": 140,
+        "estimated_benefit_score": 0.96
+      }
+    },
+    {
+      "id": "int_033",
+      "type": "intervention",
+      "subtype": "zanja",
+      "status": "planned",
+      "project_id": "proj_08",
+      "region": "west",
+      "coordinates": {
+        "lat": 20.688985,
+        "lon": -103.168451
+      },
+      "date": "2026-03-17",
+      "timestamp": "2026-03-17T18:00:00Z",
+      "operator_id": "bob",
+      "priority": "low",
+      "source": "mobile_app",
+      "quality_score": 0.72,
+      "metadata": {
+        "photos_count": 2,
+        "notes_count": 1,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 1418,
+        "length_m": 355,
+        "estimated_benefit_score": 0.83
+      }
+    },
+    {
+      "id": "int_034",
+      "type": "intervention",
+      "subtype": "muestreo_suelo",
+      "status": "planned",
+      "project_id": "proj_01",
+      "region": "west",
+      "coordinates": {
+        "lat": 20.633185,
+        "lon": -103.236616
+      },
+      "date": "2026-04-17",
+      "timestamp": "2026-04-17T13:00:00Z",
+      "operator_id": "alice",
+      "priority": "medium",
+      "source": "mobile_app",
+      "quality_score": 0.86,
+      "metadata": {
+        "photos_count": 6,
+        "notes_count": 0,
+        "offline_captured": true
+      },
+      "metrics": {
+        "samples": 8,
+        "depth_cm": 20,
+        "organic_matter_pct": 7.48
+      }
+    },
+    {
+      "id": "int_035",
+      "type": "intervention",
+      "subtype": "reforestacion",
+      "status": "in_progress",
+      "project_id": "proj_05",
+      "region": "west",
+      "coordinates": {
+        "lat": 20.720381,
+        "lon": -103.46254
+      },
+      "date": "2026-03-02",
+      "timestamp": "2026-03-02T21:00:00Z",
+      "operator_id": "fernando",
+      "priority": "medium",
+      "source": "mobile_app",
+      "quality_score": 0.84,
+      "metadata": {
+        "photos_count": 5,
+        "notes_count": 0,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 2748,
+        "trees": 130,
+        "survival_rate": 0.75
+      }
+    },
+    {
+      "id": "int_036",
+      "type": "intervention",
+      "subtype": "terraza",
+      "status": "in_progress",
+      "project_id": "proj_04",
+      "region": "north",
+      "coordinates": {
+        "lat": 20.831099,
+        "lon": -103.314149
+      },
+      "date": "2026-04-27",
+      "timestamp": "2026-04-27T12:00:00Z",
+      "operator_id": "elena",
+      "priority": "low",
+      "source": "api_partner",
+      "quality_score": 0.91,
+      "metadata": {
+        "photos_count": 6,
+        "notes_count": 4,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 2398,
+        "length_m": 52,
+        "estimated_benefit_score": 0.6
+      }
+    },
+    {
+      "id": "int_037",
+      "type": "intervention",
+      "subtype": "muestreo_biodiversidad",
+      "status": "planned",
+      "project_id": "proj_02",
+      "region": "west",
+      "coordinates": {
+        "lat": 20.650916,
+        "lon": -103.404449
+      },
+      "date": "2026-03-06",
+      "timestamp": "2026-03-06T20:00:00Z",
+      "operator_id": "diego",
+      "priority": "medium",
+      "source": "csv_upload",
+      "quality_score": 0.86,
+      "metadata": {
+        "photos_count": 6,
+        "notes_count": 3,
+        "offline_captured": true
+      },
+      "metrics": {
+        "species_count": 30,
+        "observations": 27,
+        "rare_species_flag": false
+      }
+    },
+    {
+      "id": "int_038",
+      "type": "intervention",
+      "subtype": "bordo",
+      "status": "validated",
+      "project_id": "proj_06",
+      "region": "central",
+      "coordinates": {
+        "lat": 20.718428,
+        "lon": -103.162868
+      },
+      "date": "2026-04-10",
+      "timestamp": "2026-04-10T15:00:00Z",
+      "operator_id": "carla",
+      "priority": "low",
+      "source": "mobile_app",
+      "quality_score": 0.72,
+      "metadata": {
+        "photos_count": 3,
+        "notes_count": 1,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 2414,
+        "length_m": 634,
+        "estimated_benefit_score": 0.78
+      }
+    },
+    {
+      "id": "int_039",
+      "type": "intervention",
+      "subtype": "bordo",
+      "status": "in_progress",
+      "project_id": "proj_06",
+      "region": "east",
+      "coordinates": {
+        "lat": 20.617803,
+        "lon": -103.350005
+      },
+      "date": "2026-02-11",
+      "timestamp": "2026-02-11T05:00:00Z",
+      "operator_id": "carla",
+      "priority": "medium",
+      "source": "api_partner",
+      "quality_score": 0.88,
+      "metadata": {
+        "photos_count": 2,
+        "notes_count": 4,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 2196,
+        "length_m": 205,
+        "estimated_benefit_score": 0.45
+      }
+    },
+    {
+      "id": "int_040",
+      "type": "intervention",
+      "subtype": "bordo",
+      "status": "validated",
+      "project_id": "proj_02",
+      "region": "west",
+      "coordinates": {
+        "lat": 20.755927,
+        "lon": -103.352526
+      },
+      "date": "2026-04-08",
+      "timestamp": "2026-04-08T07:00:00Z",
+      "operator_id": "alice",
+      "priority": "medium",
+      "source": "mobile_app",
+      "quality_score": 0.77,
+      "metadata": {
+        "photos_count": 1,
+        "notes_count": 2,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 2018,
+        "length_m": 576,
+        "estimated_benefit_score": 0.7
+      }
+    },
+    {
+      "id": "int_041",
+      "type": "intervention",
+      "subtype": "bordo",
+      "status": "completed",
+      "project_id": "proj_04",
+      "region": "east",
+      "coordinates": {
+        "lat": 20.649881,
+        "lon": -103.239288
+      },
+      "date": "2026-02-12",
+      "timestamp": "2026-02-12T11:00:00Z",
+      "operator_id": "carla",
+      "priority": "low",
+      "source": "api_partner",
+      "quality_score": 0.69,
+      "metadata": {
+        "photos_count": 0,
+        "notes_count": 4,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 864,
+        "length_m": 231,
+        "estimated_benefit_score": 0.82
+      }
+    },
+    {
+      "id": "int_042",
+      "type": "intervention",
+      "subtype": "muestreo_suelo",
+      "status": "planned",
+      "project_id": "proj_04",
+      "region": "south",
+      "coordinates": {
+        "lat": 20.59624,
+        "lon": -103.308082
+      },
+      "date": "2026-04-08",
+      "timestamp": "2026-04-08T16:00:00Z",
+      "operator_id": "carla",
+      "priority": "medium",
+      "source": "mobile_app",
+      "quality_score": 0.73,
+      "metadata": {
+        "photos_count": 5,
+        "notes_count": 4,
+        "offline_captured": true
+      },
+      "metrics": {
+        "samples": 9,
+        "depth_cm": 10,
+        "organic_matter_pct": 8.5
+      }
+    },
+    {
+      "id": "int_043",
+      "type": "intervention",
+      "subtype": "bordo",
+      "status": "planned",
+      "project_id": "proj_05",
+      "region": "north",
+      "coordinates": {
+        "lat": 20.695909,
+        "lon": -103.260636
+      },
+      "date": "2026-01-17",
+      "timestamp": "2026-01-17T20:00:00Z",
+      "operator_id": "elena",
+      "priority": "medium",
+      "source": "csv_upload",
+      "quality_score": 0.78,
+      "metadata": {
+        "photos_count": 1,
+        "notes_count": 0,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 2036,
+        "length_m": 126,
+        "estimated_benefit_score": 0.87
+      }
+    },
+    {
+      "id": "int_044",
+      "type": "intervention",
+      "subtype": "zanja",
+      "status": "in_progress",
+      "project_id": "proj_05",
+      "region": "south",
+      "coordinates": {
+        "lat": 20.640955,
+        "lon": -103.534904
+      },
+      "date": "2026-03-22",
+      "timestamp": "2026-03-22T21:00:00Z",
+      "operator_id": "elena",
+      "priority": "low",
+      "source": "mobile_app",
+      "quality_score": 0.66,
+      "metadata": {
+        "photos_count": 6,
+        "notes_count": 3,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 2220,
+        "length_m": 399,
+        "estimated_benefit_score": 0.66
+      }
+    },
+    {
+      "id": "int_045",
+      "type": "intervention",
+      "subtype": "zanja",
+      "status": "planned",
+      "project_id": "proj_04",
+      "region": "south",
+      "coordinates": {
+        "lat": 20.65608,
+        "lon": -103.189027
+      },
+      "date": "2026-02-24",
+      "timestamp": "2026-02-24T09:00:00Z",
+      "operator_id": "fernando",
+      "priority": "medium",
+      "source": "api_partner",
+      "quality_score": 0.65,
+      "metadata": {
+        "photos_count": 1,
+        "notes_count": 1,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 721,
+        "length_m": 12,
+        "estimated_benefit_score": 0.63
+      }
+    },
+    {
+      "id": "int_046",
+      "type": "intervention",
+      "subtype": "muestreo_suelo",
+      "status": "completed",
+      "project_id": "proj_04",
+      "region": "west",
+      "coordinates": {
+        "lat": 20.744874,
+        "lon": -103.360739
+      },
+      "date": "2026-01-05",
+      "timestamp": "2026-01-05T07:00:00Z",
+      "operator_id": "alice",
+      "priority": "medium",
+      "source": "api_partner",
+      "quality_score": 0.84,
+      "metadata": {
+        "photos_count": 6,
+        "notes_count": 1,
+        "offline_captured": false
+      },
+      "metrics": {
+        "samples": 4,
+        "depth_cm": 20,
+        "organic_matter_pct": 6.02
+      }
+    },
+    {
+      "id": "int_047",
+      "type": "intervention",
+      "subtype": "presa_filtrante",
+      "status": "completed",
+      "project_id": "proj_05",
+      "region": "central",
+      "coordinates": {
+        "lat": 20.823728,
+        "lon": -103.203782
+      },
+      "date": "2026-01-10",
+      "timestamp": "2026-01-10T01:00:00Z",
+      "operator_id": "fernando",
+      "priority": "medium",
+      "source": "mobile_app",
+      "quality_score": 0.79,
+      "metadata": {
+        "photos_count": 2,
+        "notes_count": 3,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 2129,
+        "length_m": 562,
+        "estimated_benefit_score": 0.68
+      }
+    },
+    {
+      "id": "int_048",
+      "type": "intervention",
+      "subtype": "muestreo_biodiversidad",
+      "status": "completed",
+      "project_id": "proj_04",
+      "region": "north",
+      "coordinates": {
+        "lat": 20.525659,
+        "lon": -103.549961
+      },
+      "date": "2026-02-25",
+      "timestamp": "2026-02-25T23:00:00Z",
+      "operator_id": "alice",
+      "priority": "high",
+      "source": "api_partner",
+      "quality_score": 0.84,
+      "metadata": {
+        "photos_count": 0,
+        "notes_count": 2,
+        "offline_captured": true
+      },
+      "metrics": {
+        "species_count": 14,
+        "observations": 65,
+        "rare_species_flag": false
+      }
+    },
+    {
+      "id": "int_049",
+      "type": "intervention",
+      "subtype": "bordo",
+      "status": "planned",
+      "project_id": "proj_07",
+      "region": "west",
+      "coordinates": {
+        "lat": 20.826486,
+        "lon": -103.487645
+      },
+      "date": "2026-03-16",
+      "timestamp": "2026-03-16T13:00:00Z",
+      "operator_id": "carla",
+      "priority": "medium",
+      "source": "csv_upload",
+      "quality_score": 0.87,
+      "metadata": {
+        "photos_count": 6,
+        "notes_count": 1,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 1766,
+        "length_m": 517,
+        "estimated_benefit_score": 0.56
+      }
+    },
+    {
+      "id": "int_050",
+      "type": "intervention",
+      "subtype": "bordo",
+      "status": "planned",
+      "project_id": "proj_06",
+      "region": "east",
+      "coordinates": {
+        "lat": 20.83697,
+        "lon": -103.209531
+      },
+      "date": "2026-03-12",
+      "timestamp": "2026-03-12T01:00:00Z",
+      "operator_id": "carla",
+      "priority": "low",
+      "source": "csv_upload",
+      "quality_score": 0.94,
+      "metadata": {
+        "photos_count": 6,
+        "notes_count": 0,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 1772,
+        "length_m": 65,
+        "estimated_benefit_score": 0.51
+      }
+    },
+    {
+      "id": "int_051",
+      "type": "intervention",
+      "subtype": "zanja",
+      "status": "in_progress",
+      "project_id": "proj_03",
+      "region": "east",
+      "coordinates": {
+        "lat": 20.626941,
+        "lon": -103.234665
+      },
+      "date": "2026-03-22",
+      "timestamp": "2026-03-22T14:00:00Z",
+      "operator_id": "elena",
+      "priority": "medium",
+      "source": "csv_upload",
+      "quality_score": 0.95,
+      "metadata": {
+        "photos_count": 3,
+        "notes_count": 0,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 1060,
+        "length_m": 172,
+        "estimated_benefit_score": 0.58
+      }
+    },
+    {
+      "id": "int_052",
+      "type": "intervention",
+      "subtype": "bordo",
+      "status": "planned",
+      "project_id": "proj_05",
+      "region": "south",
+      "coordinates": {
+        "lat": 20.501623,
+        "lon": -103.387984
+      },
+      "date": "2026-01-29",
+      "timestamp": "2026-01-29T03:00:00Z",
+      "operator_id": "diego",
+      "priority": "high",
+      "source": "api_partner",
+      "quality_score": 0.72,
+      "metadata": {
+        "photos_count": 6,
+        "notes_count": 3,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 1078,
+        "length_m": 477,
+        "estimated_benefit_score": 0.71
+      }
+    },
+    {
+      "id": "int_053",
+      "type": "intervention",
+      "subtype": "presa_filtrante",
+      "status": "planned",
+      "project_id": "proj_06",
+      "region": "east",
+      "coordinates": {
+        "lat": 20.634791,
+        "lon": -103.161878
+      },
+      "date": "2026-03-07",
+      "timestamp": "2026-03-07T23:00:00Z",
+      "operator_id": "diego",
+      "priority": "high",
+      "source": "csv_upload",
+      "quality_score": 0.92,
+      "metadata": {
+        "photos_count": 2,
+        "notes_count": 2,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 688,
+        "length_m": 467,
+        "estimated_benefit_score": 0.71
+      }
+    },
+    {
+      "id": "int_054",
+      "type": "intervention",
+      "subtype": "bordo",
+      "status": "completed",
+      "project_id": "proj_04",
+      "region": "south",
+      "coordinates": {
+        "lat": 20.620945,
+        "lon": -103.324656
+      },
+      "date": "2026-03-11",
+      "timestamp": "2026-03-11T12:00:00Z",
+      "operator_id": "fernando",
+      "priority": "high",
+      "source": "csv_upload",
+      "quality_score": 0.71,
+      "metadata": {
+        "photos_count": 6,
+        "notes_count": 3,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 1383,
+        "length_m": 494,
+        "estimated_benefit_score": 0.8
+      }
+    },
+    {
+      "id": "int_055",
+      "type": "intervention",
+      "subtype": "presa_filtrante",
+      "status": "validated",
+      "project_id": "proj_06",
+      "region": "north",
+      "coordinates": {
+        "lat": 20.788807,
+        "lon": -103.397625
+      },
+      "date": "2026-03-26",
+      "timestamp": "2026-03-26T20:00:00Z",
+      "operator_id": "bob",
+      "priority": "low",
+      "source": "csv_upload",
+      "quality_score": 0.66,
+      "metadata": {
+        "photos_count": 3,
+        "notes_count": 0,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 1759,
+        "length_m": 680,
+        "estimated_benefit_score": 0.95
+      }
+    },
+    {
+      "id": "int_056",
+      "type": "intervention",
+      "subtype": "terraza",
+      "status": "planned",
+      "project_id": "proj_07",
+      "region": "east",
+      "coordinates": {
+        "lat": 20.523638,
+        "lon": -103.223629
+      },
+      "date": "2026-02-03",
+      "timestamp": "2026-02-03T10:00:00Z",
+      "operator_id": "fernando",
+      "priority": "medium",
+      "source": "api_partner",
+      "quality_score": 0.89,
+      "metadata": {
+        "photos_count": 6,
+        "notes_count": 3,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 360,
+        "length_m": 250,
+        "estimated_benefit_score": 0.76
+      }
+    },
+    {
+      "id": "int_057",
+      "type": "intervention",
+      "subtype": "terraza",
+      "status": "planned",
+      "project_id": "proj_03",
+      "region": "north",
+      "coordinates": {
+        "lat": 20.828234,
+        "lon": -103.128633
+      },
+      "date": "2026-04-06",
+      "timestamp": "2026-04-06T02:00:00Z",
+      "operator_id": "diego",
+      "priority": "high",
+      "source": "csv_upload",
+      "quality_score": 0.95,
+      "metadata": {
+        "photos_count": 0,
+        "notes_count": 2,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 1281,
+        "length_m": 377,
+        "estimated_benefit_score": 0.61
+      }
+    },
+    {
+      "id": "int_058",
+      "type": "intervention",
+      "subtype": "presa_filtrante",
+      "status": "in_progress",
+      "project_id": "proj_07",
+      "region": "south",
+      "coordinates": {
+        "lat": 20.549105,
+        "lon": -103.333787
+      },
+      "date": "2026-03-14",
+      "timestamp": "2026-03-14T21:00:00Z",
+      "operator_id": "alice",
+      "priority": "high",
+      "source": "api_partner",
+      "quality_score": 0.71,
+      "metadata": {
+        "photos_count": 4,
+        "notes_count": 1,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 1968,
+        "length_m": 663,
+        "estimated_benefit_score": 0.54
+      }
+    },
+    {
+      "id": "int_059",
+      "type": "intervention",
+      "subtype": "muestreo_suelo",
+      "status": "in_progress",
+      "project_id": "proj_06",
+      "region": "north",
+      "coordinates": {
+        "lat": 20.588618,
+        "lon": -103.563365
+      },
+      "date": "2026-04-13",
+      "timestamp": "2026-04-13T14:00:00Z",
+      "operator_id": "diego",
+      "priority": "high",
+      "source": "csv_upload",
+      "quality_score": 0.86,
+      "metadata": {
+        "photos_count": 3,
+        "notes_count": 2,
+        "offline_captured": false
+      },
+      "metrics": {
+        "samples": 10,
+        "depth_cm": 20,
+        "organic_matter_pct": 8.7
+      }
+    },
+    {
+      "id": "int_060",
+      "type": "intervention",
+      "subtype": "muestreo_biodiversidad",
+      "status": "completed",
+      "project_id": "proj_07",
+      "region": "east",
+      "coordinates": {
+        "lat": 20.803901,
+        "lon": -103.520573
+      },
+      "date": "2026-02-18",
+      "timestamp": "2026-02-18T18:00:00Z",
+      "operator_id": "alice",
+      "priority": "medium",
+      "source": "mobile_app",
+      "quality_score": 0.83,
+      "metadata": {
+        "photos_count": 5,
+        "notes_count": 0,
+        "offline_captured": false
+      },
+      "metrics": {
+        "species_count": 21,
+        "observations": 104,
+        "rare_species_flag": true
+      }
+    },
+    {
+      "id": "int_061",
+      "type": "intervention",
+      "subtype": "muestreo_suelo",
+      "status": "in_progress",
+      "project_id": "proj_01",
+      "region": "north",
+      "coordinates": {
+        "lat": 20.715243,
+        "lon": -103.412479
+      },
+      "date": "2026-03-23",
+      "timestamp": "2026-03-23T06:00:00Z",
+      "operator_id": "fernando",
+      "priority": "medium",
+      "source": "csv_upload",
+      "quality_score": 0.63,
+      "metadata": {
+        "photos_count": 2,
+        "notes_count": 1,
+        "offline_captured": true
+      },
+      "metrics": {
+        "samples": 10,
+        "depth_cm": 30,
+        "organic_matter_pct": 6.78
+      }
+    },
+    {
+      "id": "int_062",
+      "type": "intervention",
+      "subtype": "muestreo_suelo",
+      "status": "in_progress",
+      "project_id": "proj_05",
+      "region": "east",
+      "coordinates": {
+        "lat": 20.55993,
+        "lon": -103.50935
+      },
+      "date": "2026-03-11",
+      "timestamp": "2026-03-11T11:00:00Z",
+      "operator_id": "diego",
+      "priority": "high",
+      "source": "csv_upload",
+      "quality_score": 0.92,
+      "metadata": {
+        "photos_count": 3,
+        "notes_count": 0,
+        "offline_captured": true
+      },
+      "metrics": {
+        "samples": 8,
+        "depth_cm": 40,
+        "organic_matter_pct": 8.45
+      }
+    },
+    {
+      "id": "int_063",
+      "type": "intervention",
+      "subtype": "zanja",
+      "status": "completed",
+      "project_id": "proj_08",
+      "region": "central",
+      "coordinates": {
+        "lat": 20.786352,
+        "lon": -103.406559
+      },
+      "date": "2026-04-12",
+      "timestamp": "2026-04-12T12:00:00Z",
+      "operator_id": "alice",
+      "priority": "medium",
+      "source": "api_partner",
+      "quality_score": 0.9,
+      "metadata": {
+        "photos_count": 2,
+        "notes_count": 4,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 1601,
+        "length_m": 120,
+        "estimated_benefit_score": 0.78
+      }
+    },
+    {
+      "id": "int_064",
+      "type": "intervention",
+      "subtype": "gavion",
+      "status": "planned",
+      "project_id": "proj_05",
+      "region": "west",
+      "coordinates": {
+        "lat": 20.666432,
+        "lon": -103.294899
+      },
+      "date": "2026-03-13",
+      "timestamp": "2026-03-13T10:00:00Z",
+      "operator_id": "fernando",
+      "priority": "high",
+      "source": "csv_upload",
+      "quality_score": 0.66,
+      "metadata": {
+        "photos_count": 0,
+        "notes_count": 0,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 2097,
+        "length_m": 128,
+        "estimated_benefit_score": 0.46
+      }
+    },
+    {
+      "id": "int_065",
+      "type": "intervention",
+      "subtype": "terraza",
+      "status": "in_progress",
+      "project_id": "proj_02",
+      "region": "west",
+      "coordinates": {
+        "lat": 20.816113,
+        "lon": -103.507808
+      },
+      "date": "2026-02-28",
+      "timestamp": "2026-02-28T11:00:00Z",
+      "operator_id": "fernando",
+      "priority": "medium",
+      "source": "api_partner",
+      "quality_score": 0.77,
+      "metadata": {
+        "photos_count": 2,
+        "notes_count": 0,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 969,
+        "length_m": 464,
+        "estimated_benefit_score": 0.65
+      }
+    },
+    {
+      "id": "int_066",
+      "type": "intervention",
+      "subtype": "muestreo_biodiversidad",
+      "status": "planned",
+      "project_id": "proj_04",
+      "region": "west",
+      "coordinates": {
+        "lat": 20.581701,
+        "lon": -103.407918
+      },
+      "date": "2026-03-29",
+      "timestamp": "2026-03-29T11:00:00Z",
+      "operator_id": "carla",
+      "priority": "low",
+      "source": "csv_upload",
+      "quality_score": 0.65,
+      "metadata": {
+        "photos_count": 1,
+        "notes_count": 4,
+        "offline_captured": true
+      },
+      "metrics": {
+        "species_count": 6,
+        "observations": 105,
+        "rare_species_flag": false
+      }
+    },
+    {
+      "id": "int_067",
+      "type": "intervention",
+      "subtype": "reforestacion",
+      "status": "in_progress",
+      "project_id": "proj_04",
+      "region": "central",
+      "coordinates": {
+        "lat": 20.584385,
+        "lon": -103.512093
+      },
+      "date": "2026-03-14",
+      "timestamp": "2026-03-14T06:00:00Z",
+      "operator_id": "bob",
+      "priority": "medium",
+      "source": "mobile_app",
+      "quality_score": 0.91,
+      "metadata": {
+        "photos_count": 4,
+        "notes_count": 0,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 1385,
+        "trees": 153,
+        "survival_rate": 0.73
+      }
+    },
+    {
+      "id": "int_068",
+      "type": "intervention",
+      "subtype": "presa_filtrante",
+      "status": "planned",
+      "project_id": "proj_06",
+      "region": "east",
+      "coordinates": {
+        "lat": 20.784165,
+        "lon": -103.519132
+      },
+      "date": "2026-04-21",
+      "timestamp": "2026-04-21T00:00:00Z",
+      "operator_id": "bob",
+      "priority": "low",
+      "source": "mobile_app",
+      "quality_score": 0.72,
+      "metadata": {
+        "photos_count": 1,
+        "notes_count": 3,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 340,
+        "length_m": 497,
+        "estimated_benefit_score": 0.66
+      }
+    },
+    {
+      "id": "int_069",
+      "type": "intervention",
+      "subtype": "gavion",
+      "status": "planned",
+      "project_id": "proj_08",
+      "region": "central",
+      "coordinates": {
+        "lat": 20.627034,
+        "lon": -103.306287
+      },
+      "date": "2026-02-27",
+      "timestamp": "2026-02-27T16:00:00Z",
+      "operator_id": "carla",
+      "priority": "high",
+      "source": "mobile_app",
+      "quality_score": 0.64,
+      "metadata": {
+        "photos_count": 3,
+        "notes_count": 3,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 522,
+        "length_m": 512,
+        "estimated_benefit_score": 0.81
+      }
+    },
+    {
+      "id": "int_070",
+      "type": "intervention",
+      "subtype": "presa_filtrante",
+      "status": "planned",
+      "project_id": "proj_06",
+      "region": "south",
+      "coordinates": {
+        "lat": 20.656382,
+        "lon": -103.171823
+      },
+      "date": "2026-02-11",
+      "timestamp": "2026-02-11T19:00:00Z",
+      "operator_id": "carla",
+      "priority": "medium",
+      "source": "api_partner",
+      "quality_score": 0.82,
+      "metadata": {
+        "photos_count": 3,
+        "notes_count": 4,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 486,
+        "length_m": 127,
+        "estimated_benefit_score": 0.89
+      }
+    },
+    {
+      "id": "int_071",
+      "type": "intervention",
+      "subtype": "terraza",
+      "status": "validated",
+      "project_id": "proj_06",
+      "region": "south",
+      "coordinates": {
+        "lat": 20.73103,
+        "lon": -103.229156
+      },
+      "date": "2026-04-03",
+      "timestamp": "2026-04-03T06:00:00Z",
+      "operator_id": "diego",
+      "priority": "medium",
+      "source": "csv_upload",
+      "quality_score": 0.77,
+      "metadata": {
+        "photos_count": 0,
+        "notes_count": 2,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 1360,
+        "length_m": 691,
+        "estimated_benefit_score": 0.55
+      }
+    },
+    {
+      "id": "int_072",
+      "type": "intervention",
+      "subtype": "reforestacion",
+      "status": "planned",
+      "project_id": "proj_02",
+      "region": "north",
+      "coordinates": {
+        "lat": 20.839993,
+        "lon": -103.265299
+      },
+      "date": "2026-03-02",
+      "timestamp": "2026-03-02T02:00:00Z",
+      "operator_id": "diego",
+      "priority": "high",
+      "source": "api_partner",
+      "quality_score": 0.76,
+      "metadata": {
+        "photos_count": 1,
+        "notes_count": 4,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 5004,
+        "trees": 595,
+        "survival_rate": 0.74
+      }
+    },
+    {
+      "id": "int_073",
+      "type": "intervention",
+      "subtype": "terraza",
+      "status": "planned",
+      "project_id": "proj_05",
+      "region": "east",
+      "coordinates": {
+        "lat": 20.737905,
+        "lon": -103.386744
+      },
+      "date": "2026-04-22",
+      "timestamp": "2026-04-22T21:00:00Z",
+      "operator_id": "elena",
+      "priority": "medium",
+      "source": "mobile_app",
+      "quality_score": 0.83,
+      "metadata": {
+        "photos_count": 1,
+        "notes_count": 1,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 998,
+        "length_m": 120,
+        "estimated_benefit_score": 0.6
+      }
+    },
+    {
+      "id": "int_074",
+      "type": "intervention",
+      "subtype": "gavion",
+      "status": "validated",
+      "project_id": "proj_01",
+      "region": "central",
+      "coordinates": {
+        "lat": 20.696956,
+        "lon": -103.51695
+      },
+      "date": "2026-02-05",
+      "timestamp": "2026-02-05T18:00:00Z",
+      "operator_id": "elena",
+      "priority": "high",
+      "source": "api_partner",
+      "quality_score": 0.93,
+      "metadata": {
+        "photos_count": 2,
+        "notes_count": 0,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 1199,
+        "length_m": 326,
+        "estimated_benefit_score": 0.93
+      }
+    },
+    {
+      "id": "int_075",
+      "type": "intervention",
+      "subtype": "terraza",
+      "status": "planned",
+      "project_id": "proj_01",
+      "region": "south",
+      "coordinates": {
+        "lat": 20.623068,
+        "lon": -103.487682
+      },
+      "date": "2026-01-19",
+      "timestamp": "2026-01-19T18:00:00Z",
+      "operator_id": "fernando",
+      "priority": "low",
+      "source": "api_partner",
+      "quality_score": 0.82,
+      "metadata": {
+        "photos_count": 3,
+        "notes_count": 3,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 1476,
+        "length_m": 171,
+        "estimated_benefit_score": 0.61
+      }
+    },
+    {
+      "id": "int_076",
+      "type": "intervention",
+      "subtype": "reforestacion",
+      "status": "planned",
+      "project_id": "proj_01",
+      "region": "south",
+      "coordinates": {
+        "lat": 20.756475,
+        "lon": -103.225692
+      },
+      "date": "2026-03-14",
+      "timestamp": "2026-03-14T19:00:00Z",
+      "operator_id": "bob",
+      "priority": "high",
+      "source": "mobile_app",
+      "quality_score": 0.72,
+      "metadata": {
+        "photos_count": 5,
+        "notes_count": 3,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 5173,
+        "trees": 472,
+        "survival_rate": 0.66
+      }
+    },
+    {
+      "id": "int_077",
+      "type": "intervention",
+      "subtype": "reforestacion",
+      "status": "completed",
+      "project_id": "proj_05",
+      "region": "central",
+      "coordinates": {
+        "lat": 20.574305,
+        "lon": -103.342068
+      },
+      "date": "2026-02-14",
+      "timestamp": "2026-02-14T13:00:00Z",
+      "operator_id": "diego",
+      "priority": "low",
+      "source": "mobile_app",
+      "quality_score": 0.77,
+      "metadata": {
+        "photos_count": 4,
+        "notes_count": 0,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 1874,
+        "trees": 328,
+        "survival_rate": 0.93
+      }
+    },
+    {
+      "id": "int_078",
+      "type": "intervention",
+      "subtype": "reforestacion",
+      "status": "planned",
+      "project_id": "proj_07",
+      "region": "west",
+      "coordinates": {
+        "lat": 20.772946,
+        "lon": -103.231269
+      },
+      "date": "2026-02-07",
+      "timestamp": "2026-02-07T10:00:00Z",
+      "operator_id": "fernando",
+      "priority": "low",
+      "source": "mobile_app",
+      "quality_score": 0.76,
+      "metadata": {
+        "photos_count": 5,
+        "notes_count": 1,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 790,
+        "trees": 426,
+        "survival_rate": 0.89
+      }
+    },
+    {
+      "id": "int_079",
+      "type": "intervention",
+      "subtype": "muestreo_biodiversidad",
+      "status": "validated",
+      "project_id": "proj_07",
+      "region": "central",
+      "coordinates": {
+        "lat": 20.511929,
+        "lon": -103.559254
+      },
+      "date": "2026-04-28",
+      "timestamp": "2026-04-28T02:00:00Z",
+      "operator_id": "diego",
+      "priority": "medium",
+      "source": "mobile_app",
+      "quality_score": 0.77,
+      "metadata": {
+        "photos_count": 2,
+        "notes_count": 1,
+        "offline_captured": false
+      },
+      "metrics": {
+        "species_count": 26,
+        "observations": 16,
+        "rare_species_flag": false
+      }
+    },
+    {
+      "id": "int_080",
+      "type": "intervention",
+      "subtype": "reforestacion",
+      "status": "validated",
+      "project_id": "proj_06",
+      "region": "east",
+      "coordinates": {
+        "lat": 20.800714,
+        "lon": -103.460441
+      },
+      "date": "2026-03-17",
+      "timestamp": "2026-03-17T12:00:00Z",
+      "operator_id": "fernando",
+      "priority": "low",
+      "source": "csv_upload",
+      "quality_score": 0.91,
+      "metadata": {
+        "photos_count": 0,
+        "notes_count": 4,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 4546,
+        "trees": 542,
+        "survival_rate": 0.55
+      }
+    },
+    {
+      "id": "int_081",
+      "type": "intervention",
+      "subtype": "presa_filtrante",
+      "status": "in_progress",
+      "project_id": "proj_05",
+      "region": "north",
+      "coordinates": {
+        "lat": 20.776142,
+        "lon": -103.413016
+      },
+      "date": "2026-04-15",
+      "timestamp": "2026-04-15T20:00:00Z",
+      "operator_id": "bob",
+      "priority": "low",
+      "source": "mobile_app",
+      "quality_score": 0.84,
+      "metadata": {
+        "photos_count": 6,
+        "notes_count": 0,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 2103,
+        "length_m": 485,
+        "estimated_benefit_score": 0.83
+      }
+    },
+    {
+      "id": "int_082",
+      "type": "intervention",
+      "subtype": "muestreo_biodiversidad",
+      "status": "completed",
+      "project_id": "proj_02",
+      "region": "south",
+      "coordinates": {
+        "lat": 20.770256,
+        "lon": -103.369982
+      },
+      "date": "2026-04-29",
+      "timestamp": "2026-04-29T18:00:00Z",
+      "operator_id": "diego",
+      "priority": "medium",
+      "source": "csv_upload",
+      "quality_score": 0.85,
+      "metadata": {
+        "photos_count": 6,
+        "notes_count": 2,
+        "offline_captured": true
+      },
+      "metrics": {
+        "species_count": 25,
+        "observations": 69,
+        "rare_species_flag": true
+      }
+    },
+    {
+      "id": "int_083",
+      "type": "intervention",
+      "subtype": "muestreo_suelo",
+      "status": "planned",
+      "project_id": "proj_07",
+      "region": "north",
+      "coordinates": {
+        "lat": 20.608447,
+        "lon": -103.368658
+      },
+      "date": "2026-01-08",
+      "timestamp": "2026-01-08T11:00:00Z",
+      "operator_id": "elena",
+      "priority": "medium",
+      "source": "api_partner",
+      "quality_score": 0.83,
+      "metadata": {
+        "photos_count": 6,
+        "notes_count": 0,
+        "offline_captured": false
+      },
+      "metrics": {
+        "samples": 7,
+        "depth_cm": 30,
+        "organic_matter_pct": 5.7
+      }
+    },
+    {
+      "id": "int_084",
+      "type": "intervention",
+      "subtype": "muestreo_biodiversidad",
+      "status": "planned",
+      "project_id": "proj_03",
+      "region": "central",
+      "coordinates": {
+        "lat": 20.677192,
+        "lon": -103.146102
+      },
+      "date": "2026-02-27",
+      "timestamp": "2026-02-27T03:00:00Z",
+      "operator_id": "fernando",
+      "priority": "low",
+      "source": "mobile_app",
+      "quality_score": 0.88,
+      "metadata": {
+        "photos_count": 3,
+        "notes_count": 4,
+        "offline_captured": true
+      },
+      "metrics": {
+        "species_count": 26,
+        "observations": 52,
+        "rare_species_flag": false
+      }
+    },
+    {
+      "id": "int_085",
+      "type": "intervention",
+      "subtype": "zanja",
+      "status": "completed",
+      "project_id": "proj_02",
+      "region": "north",
+      "coordinates": {
+        "lat": 20.63617,
+        "lon": -103.226735
+      },
+      "date": "2026-03-28",
+      "timestamp": "2026-03-28T19:00:00Z",
+      "operator_id": "carla",
+      "priority": "high",
+      "source": "api_partner",
+      "quality_score": 0.76,
+      "metadata": {
+        "photos_count": 2,
+        "notes_count": 4,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 1445,
+        "length_m": 93,
+        "estimated_benefit_score": 0.73
+      }
+    },
+    {
+      "id": "int_086",
+      "type": "intervention",
+      "subtype": "terraza",
+      "status": "in_progress",
+      "project_id": "proj_02",
+      "region": "central",
+      "coordinates": {
+        "lat": 20.547614,
+        "lon": -103.413579
+      },
+      "date": "2026-03-25",
+      "timestamp": "2026-03-25T22:00:00Z",
+      "operator_id": "fernando",
+      "priority": "medium",
+      "source": "api_partner",
+      "quality_score": 0.76,
+      "metadata": {
+        "photos_count": 6,
+        "notes_count": 2,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 2236,
+        "length_m": 105,
+        "estimated_benefit_score": 0.77
+      }
+    },
+    {
+      "id": "int_087",
+      "type": "intervention",
+      "subtype": "presa_filtrante",
+      "status": "in_progress",
+      "project_id": "proj_04",
+      "region": "east",
+      "coordinates": {
+        "lat": 20.649126,
+        "lon": -103.408296
+      },
+      "date": "2026-02-16",
+      "timestamp": "2026-02-16T09:00:00Z",
+      "operator_id": "diego",
+      "priority": "low",
+      "source": "mobile_app",
+      "quality_score": 0.68,
+      "metadata": {
+        "photos_count": 2,
+        "notes_count": 0,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 1459,
+        "length_m": 642,
+        "estimated_benefit_score": 0.47
+      }
+    },
+    {
+      "id": "int_088",
+      "type": "intervention",
+      "subtype": "presa_filtrante",
+      "status": "validated",
+      "project_id": "proj_06",
+      "region": "north",
+      "coordinates": {
+        "lat": 20.632319,
+        "lon": -103.496111
+      },
+      "date": "2026-04-17",
+      "timestamp": "2026-04-17T22:00:00Z",
+      "operator_id": "diego",
+      "priority": "high",
+      "source": "api_partner",
+      "quality_score": 0.71,
+      "metadata": {
+        "photos_count": 3,
+        "notes_count": 4,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 1918,
+        "length_m": 249,
+        "estimated_benefit_score": 0.7
+      }
+    },
+    {
+      "id": "int_089",
+      "type": "intervention",
+      "subtype": "muestreo_biodiversidad",
+      "status": "validated",
+      "project_id": "proj_07",
+      "region": "west",
+      "coordinates": {
+        "lat": 20.608108,
+        "lon": -103.211705
+      },
+      "date": "2026-03-02",
+      "timestamp": "2026-03-02T06:00:00Z",
+      "operator_id": "carla",
+      "priority": "high",
+      "source": "api_partner",
+      "quality_score": 0.77,
+      "metadata": {
+        "photos_count": 1,
+        "notes_count": 1,
+        "offline_captured": true
+      },
+      "metrics": {
+        "species_count": 19,
+        "observations": 11,
+        "rare_species_flag": false
+      }
+    },
+    {
+      "id": "int_090",
+      "type": "intervention",
+      "subtype": "reforestacion",
+      "status": "completed",
+      "project_id": "proj_05",
+      "region": "north",
+      "coordinates": {
+        "lat": 20.811382,
+        "lon": -103.323502
+      },
+      "date": "2026-01-14",
+      "timestamp": "2026-01-14T22:00:00Z",
+      "operator_id": "bob",
+      "priority": "medium",
+      "source": "api_partner",
+      "quality_score": 0.67,
+      "metadata": {
+        "photos_count": 3,
+        "notes_count": 0,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 6890,
+        "trees": 481,
+        "survival_rate": 0.9
+      }
+    },
+    {
+      "id": "int_091",
+      "type": "intervention",
+      "subtype": "muestreo_biodiversidad",
+      "status": "in_progress",
+      "project_id": "proj_06",
+      "region": "west",
+      "coordinates": {
+        "lat": 20.83167,
+        "lon": -103.384945
+      },
+      "date": "2026-02-20",
+      "timestamp": "2026-02-20T16:00:00Z",
+      "operator_id": "alice",
+      "priority": "low",
+      "source": "mobile_app",
+      "quality_score": 0.74,
+      "metadata": {
+        "photos_count": 0,
+        "notes_count": 2,
+        "offline_captured": true
+      },
+      "metrics": {
+        "species_count": 11,
+        "observations": 9,
+        "rare_species_flag": false
+      }
+    },
+    {
+      "id": "int_092",
+      "type": "intervention",
+      "subtype": "bordo",
+      "status": "validated",
+      "project_id": "proj_02",
+      "region": "central",
+      "coordinates": {
+        "lat": 20.826963,
+        "lon": -103.35962
+      },
+      "date": "2026-04-17",
+      "timestamp": "2026-04-17T04:00:00Z",
+      "operator_id": "alice",
+      "priority": "low",
+      "source": "csv_upload",
+      "quality_score": 0.7,
+      "metadata": {
+        "photos_count": 1,
+        "notes_count": 4,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 535,
+        "length_m": 305,
+        "estimated_benefit_score": 0.54
+      }
+    },
+    {
+      "id": "int_093",
+      "type": "intervention",
+      "subtype": "bordo",
+      "status": "planned",
+      "project_id": "proj_01",
+      "region": "north",
+      "coordinates": {
+        "lat": 20.540565,
+        "lon": -103.462587
+      },
+      "date": "2026-03-23",
+      "timestamp": "2026-03-23T19:00:00Z",
+      "operator_id": "diego",
+      "priority": "high",
+      "source": "api_partner",
+      "quality_score": 0.83,
+      "metadata": {
+        "photos_count": 5,
+        "notes_count": 1,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 1838,
+        "length_m": 11,
+        "estimated_benefit_score": 0.75
+      }
+    },
+    {
+      "id": "int_094",
+      "type": "intervention",
+      "subtype": "reforestacion",
+      "status": "completed",
+      "project_id": "proj_01",
+      "region": "north",
+      "coordinates": {
+        "lat": 20.583303,
+        "lon": -103.38421
+      },
+      "date": "2026-03-27",
+      "timestamp": "2026-03-27T21:00:00Z",
+      "operator_id": "elena",
+      "priority": "medium",
+      "source": "csv_upload",
+      "quality_score": 0.64,
+      "metadata": {
+        "photos_count": 3,
+        "notes_count": 2,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 6322,
+        "trees": 36,
+        "survival_rate": 0.63
+      }
+    },
+    {
+      "id": "int_095",
+      "type": "intervention",
+      "subtype": "reforestacion",
+      "status": "completed",
+      "project_id": "proj_06",
+      "region": "south",
+      "coordinates": {
+        "lat": 20.521021,
+        "lon": -103.461405
+      },
+      "date": "2026-03-26",
+      "timestamp": "2026-03-26T20:00:00Z",
+      "operator_id": "alice",
+      "priority": "high",
+      "source": "csv_upload",
+      "quality_score": 0.92,
+      "metadata": {
+        "photos_count": 1,
+        "notes_count": 3,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 5375,
+        "trees": 206,
+        "survival_rate": 0.86
+      }
+    },
+    {
+      "id": "int_096",
+      "type": "intervention",
+      "subtype": "muestreo_suelo",
+      "status": "in_progress",
+      "project_id": "proj_01",
+      "region": "north",
+      "coordinates": {
+        "lat": 20.519416,
+        "lon": -103.225976
+      },
+      "date": "2026-02-28",
+      "timestamp": "2026-02-28T01:00:00Z",
+      "operator_id": "bob",
+      "priority": "medium",
+      "source": "csv_upload",
+      "quality_score": 0.81,
+      "metadata": {
+        "photos_count": 6,
+        "notes_count": 4,
+        "offline_captured": false
+      },
+      "metrics": {
+        "samples": 9,
+        "depth_cm": 10,
+        "organic_matter_pct": 6.83
+      }
+    },
+    {
+      "id": "int_097",
+      "type": "intervention",
+      "subtype": "muestreo_biodiversidad",
+      "status": "completed",
+      "project_id": "proj_07",
+      "region": "north",
+      "coordinates": {
+        "lat": 20.565497,
+        "lon": -103.410431
+      },
+      "date": "2026-04-10",
+      "timestamp": "2026-04-10T01:00:00Z",
+      "operator_id": "carla",
+      "priority": "medium",
+      "source": "api_partner",
+      "quality_score": 0.78,
+      "metadata": {
+        "photos_count": 3,
+        "notes_count": 2,
+        "offline_captured": true
+      },
+      "metrics": {
+        "species_count": 34,
+        "observations": 93,
+        "rare_species_flag": false
+      }
+    },
+    {
+      "id": "int_098",
+      "type": "intervention",
+      "subtype": "terraza",
+      "status": "planned",
+      "project_id": "proj_03",
+      "region": "west",
+      "coordinates": {
+        "lat": 20.628945,
+        "lon": -103.216692
+      },
+      "date": "2026-02-04",
+      "timestamp": "2026-02-04T02:00:00Z",
+      "operator_id": "elena",
+      "priority": "high",
+      "source": "csv_upload",
+      "quality_score": 0.74,
+      "metadata": {
+        "photos_count": 0,
+        "notes_count": 2,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 1335,
+        "length_m": 466,
+        "estimated_benefit_score": 0.74
+      }
+    },
+    {
+      "id": "int_099",
+      "type": "intervention",
+      "subtype": "zanja",
+      "status": "completed",
+      "project_id": "proj_05",
+      "region": "central",
+      "coordinates": {
+        "lat": 20.650102,
+        "lon": -103.264003
+      },
+      "date": "2026-02-14",
+      "timestamp": "2026-02-14T14:00:00Z",
+      "operator_id": "diego",
+      "priority": "high",
+      "source": "mobile_app",
+      "quality_score": 0.65,
+      "metadata": {
+        "photos_count": 5,
+        "notes_count": 3,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 2181,
+        "length_m": 173,
+        "estimated_benefit_score": 0.94
+      }
+    },
+    {
+      "id": "int_100",
+      "type": "intervention",
+      "subtype": "zanja",
+      "status": "in_progress",
+      "project_id": "proj_06",
+      "region": "north",
+      "coordinates": {
+        "lat": 20.548101,
+        "lon": -103.300168
+      },
+      "date": "2026-04-11",
+      "timestamp": "2026-04-11T14:00:00Z",
+      "operator_id": "bob",
+      "priority": "medium",
+      "source": "csv_upload",
+      "quality_score": 0.97,
+      "metadata": {
+        "photos_count": 0,
+        "notes_count": 4,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 1922,
+        "length_m": 389,
+        "estimated_benefit_score": 0.61
+      }
+    },
+    {
+      "id": "int_101",
+      "type": "intervention",
+      "subtype": "terraza",
+      "status": "completed",
+      "project_id": "proj_02",
+      "region": "east",
+      "coordinates": {
+        "lat": 20.77141,
+        "lon": -103.314974
+      },
+      "date": "2026-03-09",
+      "timestamp": "2026-03-09T11:00:00Z",
+      "operator_id": "bob",
+      "priority": "low",
+      "source": "api_partner",
+      "quality_score": 0.69,
+      "metadata": {
+        "photos_count": 4,
+        "notes_count": 3,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 1152,
+        "length_m": 276,
+        "estimated_benefit_score": 0.8
+      }
+    },
+    {
+      "id": "int_102",
+      "type": "intervention",
+      "subtype": "gavion",
+      "status": "planned",
+      "project_id": "proj_08",
+      "region": "south",
+      "coordinates": {
+        "lat": 20.573945,
+        "lon": -103.298274
+      },
+      "date": "2026-03-30",
+      "timestamp": "2026-03-30T15:00:00Z",
+      "operator_id": "alice",
+      "priority": "low",
+      "source": "api_partner",
+      "quality_score": 0.78,
+      "metadata": {
+        "photos_count": 0,
+        "notes_count": 2,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 345,
+        "length_m": 573,
+        "estimated_benefit_score": 0.71
+      }
+    },
+    {
+      "id": "int_103",
+      "type": "intervention",
+      "subtype": "presa_filtrante",
+      "status": "completed",
+      "project_id": "proj_02",
+      "region": "central",
+      "coordinates": {
+        "lat": 20.817579,
+        "lon": -103.192901
+      },
+      "date": "2026-04-02",
+      "timestamp": "2026-04-02T22:00:00Z",
+      "operator_id": "bob",
+      "priority": "low",
+      "source": "mobile_app",
+      "quality_score": 0.71,
+      "metadata": {
+        "photos_count": 3,
+        "notes_count": 0,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 2349,
+        "length_m": 596,
+        "estimated_benefit_score": 0.61
+      }
+    },
+    {
+      "id": "int_104",
+      "type": "intervention",
+      "subtype": "reforestacion",
+      "status": "completed",
+      "project_id": "proj_08",
+      "region": "west",
+      "coordinates": {
+        "lat": 20.786018,
+        "lon": -103.324775
+      },
+      "date": "2026-03-20",
+      "timestamp": "2026-03-20T02:00:00Z",
+      "operator_id": "fernando",
+      "priority": "high",
+      "source": "csv_upload",
+      "quality_score": 0.9,
+      "metadata": {
+        "photos_count": 6,
+        "notes_count": 4,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 1226,
+        "trees": 344,
+        "survival_rate": 0.78
+      }
+    },
+    {
+      "id": "int_105",
+      "type": "intervention",
+      "subtype": "presa_filtrante",
+      "status": "in_progress",
+      "project_id": "proj_01",
+      "region": "west",
+      "coordinates": {
+        "lat": 20.658691,
+        "lon": -103.268252
+      },
+      "date": "2026-02-14",
+      "timestamp": "2026-02-14T04:00:00Z",
+      "operator_id": "elena",
+      "priority": "low",
+      "source": "api_partner",
+      "quality_score": 0.68,
+      "metadata": {
+        "photos_count": 1,
+        "notes_count": 1,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 1003,
+        "length_m": 364,
+        "estimated_benefit_score": 0.94
+      }
+    },
+    {
+      "id": "int_106",
+      "type": "intervention",
+      "subtype": "gavion",
+      "status": "completed",
+      "project_id": "proj_05",
+      "region": "south",
+      "coordinates": {
+        "lat": 20.683503,
+        "lon": -103.442519
+      },
+      "date": "2026-01-11",
+      "timestamp": "2026-01-11T08:00:00Z",
+      "operator_id": "fernando",
+      "priority": "high",
+      "source": "api_partner",
+      "quality_score": 0.65,
+      "metadata": {
+        "photos_count": 5,
+        "notes_count": 1,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 781,
+        "length_m": 684,
+        "estimated_benefit_score": 0.76
+      }
+    },
+    {
+      "id": "int_107",
+      "type": "intervention",
+      "subtype": "zanja",
+      "status": "planned",
+      "project_id": "proj_05",
+      "region": "north",
+      "coordinates": {
+        "lat": 20.82142,
+        "lon": -103.418947
+      },
+      "date": "2026-04-29",
+      "timestamp": "2026-04-29T18:00:00Z",
+      "operator_id": "alice",
+      "priority": "high",
+      "source": "mobile_app",
+      "quality_score": 0.9,
+      "metadata": {
+        "photos_count": 3,
+        "notes_count": 4,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 2119,
+        "length_m": 652,
+        "estimated_benefit_score": 0.71
+      }
+    },
+    {
+      "id": "int_108",
+      "type": "intervention",
+      "subtype": "terraza",
+      "status": "completed",
+      "project_id": "proj_01",
+      "region": "west",
+      "coordinates": {
+        "lat": 20.727787,
+        "lon": -103.434579
+      },
+      "date": "2026-02-01",
+      "timestamp": "2026-02-01T21:00:00Z",
+      "operator_id": "alice",
+      "priority": "low",
+      "source": "csv_upload",
+      "quality_score": 0.77,
+      "metadata": {
+        "photos_count": 3,
+        "notes_count": 1,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 668,
+        "length_m": 330,
+        "estimated_benefit_score": 0.89
+      }
+    },
+    {
+      "id": "int_109",
+      "type": "intervention",
+      "subtype": "presa_filtrante",
+      "status": "completed",
+      "project_id": "proj_02",
+      "region": "central",
+      "coordinates": {
+        "lat": 20.611654,
+        "lon": -103.13277
+      },
+      "date": "2026-02-14",
+      "timestamp": "2026-02-14T12:00:00Z",
+      "operator_id": "elena",
+      "priority": "medium",
+      "source": "mobile_app",
+      "quality_score": 0.79,
+      "metadata": {
+        "photos_count": 2,
+        "notes_count": 3,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 657,
+        "length_m": 109,
+        "estimated_benefit_score": 0.43
+      }
+    },
+    {
+      "id": "int_110",
+      "type": "intervention",
+      "subtype": "presa_filtrante",
+      "status": "completed",
+      "project_id": "proj_06",
+      "region": "central",
+      "coordinates": {
+        "lat": 20.837039,
+        "lon": -103.187268
+      },
+      "date": "2026-02-23",
+      "timestamp": "2026-02-23T07:00:00Z",
+      "operator_id": "fernando",
+      "priority": "low",
+      "source": "mobile_app",
+      "quality_score": 0.8,
+      "metadata": {
+        "photos_count": 4,
+        "notes_count": 3,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 1343,
+        "length_m": 519,
+        "estimated_benefit_score": 0.41
+      }
+    },
+    {
+      "id": "int_111",
+      "type": "intervention",
+      "subtype": "muestreo_biodiversidad",
+      "status": "planned",
+      "project_id": "proj_08",
+      "region": "north",
+      "coordinates": {
+        "lat": 20.836984,
+        "lon": -103.345104
+      },
+      "date": "2026-01-31",
+      "timestamp": "2026-01-31T06:00:00Z",
+      "operator_id": "carla",
+      "priority": "high",
+      "source": "api_partner",
+      "quality_score": 0.87,
+      "metadata": {
+        "photos_count": 2,
+        "notes_count": 4,
+        "offline_captured": true
+      },
+      "metrics": {
+        "species_count": 9,
+        "observations": 60,
+        "rare_species_flag": true
+      }
+    },
+    {
+      "id": "int_112",
+      "type": "intervention",
+      "subtype": "muestreo_biodiversidad",
+      "status": "planned",
+      "project_id": "proj_04",
+      "region": "west",
+      "coordinates": {
+        "lat": 20.814384,
+        "lon": -103.247396
+      },
+      "date": "2026-04-08",
+      "timestamp": "2026-04-08T12:00:00Z",
+      "operator_id": "alice",
+      "priority": "medium",
+      "source": "api_partner",
+      "quality_score": 0.73,
+      "metadata": {
+        "photos_count": 3,
+        "notes_count": 4,
+        "offline_captured": false
+      },
+      "metrics": {
+        "species_count": 38,
+        "observations": 40,
+        "rare_species_flag": true
+      }
+    },
+    {
+      "id": "int_113",
+      "type": "intervention",
+      "subtype": "muestreo_biodiversidad",
+      "status": "in_progress",
+      "project_id": "proj_07",
+      "region": "south",
+      "coordinates": {
+        "lat": 20.543019,
+        "lon": -103.52496
+      },
+      "date": "2026-02-17",
+      "timestamp": "2026-02-17T10:00:00Z",
+      "operator_id": "elena",
+      "priority": "high",
+      "source": "mobile_app",
+      "quality_score": 0.64,
+      "metadata": {
+        "photos_count": 1,
+        "notes_count": 2,
+        "offline_captured": false
+      },
+      "metrics": {
+        "species_count": 36,
+        "observations": 63,
+        "rare_species_flag": true
+      }
+    },
+    {
+      "id": "int_114",
+      "type": "intervention",
+      "subtype": "muestreo_biodiversidad",
+      "status": "in_progress",
+      "project_id": "proj_05",
+      "region": "west",
+      "coordinates": {
+        "lat": 20.714954,
+        "lon": -103.340677
+      },
+      "date": "2026-02-11",
+      "timestamp": "2026-02-11T19:00:00Z",
+      "operator_id": "elena",
+      "priority": "high",
+      "source": "csv_upload",
+      "quality_score": 0.81,
+      "metadata": {
+        "photos_count": 4,
+        "notes_count": 4,
+        "offline_captured": false
+      },
+      "metrics": {
+        "species_count": 39,
+        "observations": 43,
+        "rare_species_flag": false
+      }
+    },
+    {
+      "id": "int_115",
+      "type": "intervention",
+      "subtype": "terraza",
+      "status": "completed",
+      "project_id": "proj_08",
+      "region": "north",
+      "coordinates": {
+        "lat": 20.79037,
+        "lon": -103.405423
+      },
+      "date": "2026-03-28",
+      "timestamp": "2026-03-28T03:00:00Z",
+      "operator_id": "elena",
+      "priority": "medium",
+      "source": "api_partner",
+      "quality_score": 0.91,
+      "metadata": {
+        "photos_count": 6,
+        "notes_count": 4,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 290,
+        "length_m": 607,
+        "estimated_benefit_score": 0.67
+      }
+    },
+    {
+      "id": "int_116",
+      "type": "intervention",
+      "subtype": "presa_filtrante",
+      "status": "in_progress",
+      "project_id": "proj_02",
+      "region": "north",
+      "coordinates": {
+        "lat": 20.685424,
+        "lon": -103.25018
+      },
+      "date": "2026-04-10",
+      "timestamp": "2026-04-10T12:00:00Z",
+      "operator_id": "elena",
+      "priority": "low",
+      "source": "mobile_app",
+      "quality_score": 0.78,
+      "metadata": {
+        "photos_count": 3,
+        "notes_count": 1,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 915,
+        "length_m": 430,
+        "estimated_benefit_score": 0.69
+      }
+    },
+    {
+      "id": "int_117",
+      "type": "intervention",
+      "subtype": "zanja",
+      "status": "in_progress",
+      "project_id": "proj_06",
+      "region": "central",
+      "coordinates": {
+        "lat": 20.716832,
+        "lon": -103.359994
+      },
+      "date": "2026-04-19",
+      "timestamp": "2026-04-19T23:00:00Z",
+      "operator_id": "bob",
+      "priority": "high",
+      "source": "csv_upload",
+      "quality_score": 0.81,
+      "metadata": {
+        "photos_count": 2,
+        "notes_count": 1,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 2263,
+        "length_m": 360,
+        "estimated_benefit_score": 0.71
+      }
+    },
+    {
+      "id": "int_118",
+      "type": "intervention",
+      "subtype": "muestreo_suelo",
+      "status": "validated",
+      "project_id": "proj_05",
+      "region": "south",
+      "coordinates": {
+        "lat": 20.740013,
+        "lon": -103.185732
+      },
+      "date": "2026-03-29",
+      "timestamp": "2026-03-29T20:00:00Z",
+      "operator_id": "bob",
+      "priority": "high",
+      "source": "csv_upload",
+      "quality_score": 0.7,
+      "metadata": {
+        "photos_count": 2,
+        "notes_count": 2,
+        "offline_captured": true
+      },
+      "metrics": {
+        "samples": 16,
+        "depth_cm": 30,
+        "organic_matter_pct": 4.75
+      }
+    },
+    {
+      "id": "int_119",
+      "type": "intervention",
+      "subtype": "muestreo_suelo",
+      "status": "planned",
+      "project_id": "proj_07",
+      "region": "central",
+      "coordinates": {
+        "lat": 20.698476,
+        "lon": -103.156326
+      },
+      "date": "2026-04-03",
+      "timestamp": "2026-04-03T08:00:00Z",
+      "operator_id": "fernando",
+      "priority": "medium",
+      "source": "csv_upload",
+      "quality_score": 0.97,
+      "metadata": {
+        "photos_count": 6,
+        "notes_count": 1,
+        "offline_captured": false
+      },
+      "metrics": {
+        "samples": 2,
+        "depth_cm": 30,
+        "organic_matter_pct": 8.36
+      }
+    },
+    {
+      "id": "int_120",
+      "type": "intervention",
+      "subtype": "bordo",
+      "status": "in_progress",
+      "project_id": "proj_05",
+      "region": "south",
+      "coordinates": {
+        "lat": 20.525151,
+        "lon": -103.160936
+      },
+      "date": "2026-03-25",
+      "timestamp": "2026-03-25T08:00:00Z",
+      "operator_id": "elena",
+      "priority": "high",
+      "source": "api_partner",
+      "quality_score": 0.72,
+      "metadata": {
+        "photos_count": 0,
+        "notes_count": 4,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 1073,
+        "length_m": 61,
+        "estimated_benefit_score": 0.78
+      }
+    },
+    {
+      "id": "int_121",
+      "type": "intervention",
+      "subtype": "zanja",
+      "status": "validated",
+      "project_id": "proj_02",
+      "region": "cluster_test_area",
+      "coordinates": {
+        "lat": 20.700621,
+        "lon": -103.317241
+      },
+      "date": "2026-01-27",
+      "timestamp": "2026-01-27T12:00:00Z",
+      "operator_id": "fernando",
+      "priority": "high",
+      "source": "mobile_app",
+      "quality_score": 0.89,
+      "metadata": {
+        "photos_count": 2,
+        "notes_count": 0,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 983,
+        "length_m": 263,
+        "estimated_benefit_score": 0.78
+      }
+    },
+    {
+      "id": "int_122",
+      "type": "intervention",
+      "subtype": "reforestacion",
+      "status": "completed",
+      "project_id": "proj_01",
+      "region": "cluster_test_area",
+      "coordinates": {
+        "lat": 20.693989,
+        "lon": -103.310722
+      },
+      "date": "2026-03-03",
+      "timestamp": "2026-03-03T12:00:00Z",
+      "operator_id": "fernando",
+      "priority": "high",
+      "source": "mobile_app",
+      "quality_score": 0.91,
+      "metadata": {
+        "photos_count": 5,
+        "notes_count": 2,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 508,
+        "length_m": 233,
+        "estimated_benefit_score": 0.94
+      }
+    },
+    {
+      "id": "int_123",
+      "type": "intervention",
+      "subtype": "reforestacion",
+      "status": "completed",
+      "project_id": "proj_03",
+      "region": "cluster_test_area",
+      "coordinates": {
+        "lat": 20.693516,
+        "lon": -103.311607
+      },
+      "date": "2026-03-12",
+      "timestamp": "2026-03-12T12:00:00Z",
+      "operator_id": "carla",
+      "priority": "high",
+      "source": "mobile_app",
+      "quality_score": 0.97,
+      "metadata": {
+        "photos_count": 1,
+        "notes_count": 1,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 836,
+        "length_m": 165,
+        "estimated_benefit_score": 0.77
+      }
+    },
+    {
+      "id": "int_124",
+      "type": "intervention",
+      "subtype": "gavion",
+      "status": "validated",
+      "project_id": "proj_02",
+      "region": "cluster_test_area",
+      "coordinates": {
+        "lat": 20.702826,
+        "lon": -103.319514
+      },
+      "date": "2026-02-07",
+      "timestamp": "2026-02-07T12:00:00Z",
+      "operator_id": "bob",
+      "priority": "high",
+      "source": "mobile_app",
+      "quality_score": 0.95,
+      "metadata": {
+        "photos_count": 3,
+        "notes_count": 0,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 1477,
+        "length_m": 151,
+        "estimated_benefit_score": 0.87
+      }
+    },
+    {
+      "id": "int_125",
+      "type": "intervention",
+      "subtype": "gavion",
+      "status": "completed",
+      "project_id": "proj_01",
+      "region": "cluster_test_area",
+      "coordinates": {
+        "lat": 20.690282,
+        "lon": -103.323258
+      },
+      "date": "2026-02-27",
+      "timestamp": "2026-02-27T12:00:00Z",
+      "operator_id": "elena",
+      "priority": "high",
+      "source": "mobile_app",
+      "quality_score": 0.96,
+      "metadata": {
+        "photos_count": 4,
+        "notes_count": 1,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 327,
+        "length_m": 225,
+        "estimated_benefit_score": 0.85
+      }
+    },
+    {
+      "id": "int_126",
+      "type": "intervention",
+      "subtype": "zanja",
+      "status": "completed",
+      "project_id": "proj_02",
+      "region": "cluster_test_area",
+      "coordinates": {
+        "lat": 20.693696,
+        "lon": -103.327188
+      },
+      "date": "2026-03-03",
+      "timestamp": "2026-03-03T12:00:00Z",
+      "operator_id": "diego",
+      "priority": "high",
+      "source": "mobile_app",
+      "quality_score": 0.84,
+      "metadata": {
+        "photos_count": 3,
+        "notes_count": 1,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 1342,
+        "length_m": 25,
+        "estimated_benefit_score": 0.7
+      }
+    },
+    {
+      "id": "int_127",
+      "type": "intervention",
+      "subtype": "reforestacion",
+      "status": "validated",
+      "project_id": "proj_01",
+      "region": "cluster_test_area",
+      "coordinates": {
+        "lat": 20.697191,
+        "lon": -103.325274
+      },
+      "date": "2026-02-05",
+      "timestamp": "2026-02-05T12:00:00Z",
+      "operator_id": "diego",
+      "priority": "high",
+      "source": "mobile_app",
+      "quality_score": 0.93,
+      "metadata": {
+        "photos_count": 3,
+        "notes_count": 2,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 1458,
+        "length_m": 171,
+        "estimated_benefit_score": 0.74
+      }
+    },
+    {
+      "id": "int_128",
+      "type": "intervention",
+      "subtype": "zanja",
+      "status": "validated",
+      "project_id": "proj_03",
+      "region": "cluster_test_area",
+      "coordinates": {
+        "lat": 20.694417,
+        "lon": -103.310853
+      },
+      "date": "2026-03-23",
+      "timestamp": "2026-03-23T12:00:00Z",
+      "operator_id": "elena",
+      "priority": "high",
+      "source": "mobile_app",
+      "quality_score": 0.87,
+      "metadata": {
+        "photos_count": 5,
+        "notes_count": 1,
+        "offline_captured": true
+      },
+      "metrics": {
+        "area_m2": 656,
+        "length_m": 61,
+        "estimated_benefit_score": 0.8
+      }
+    },
+    {
+      "id": "int_129",
+      "type": "intervention",
+      "subtype": "zanja",
+      "status": "completed",
+      "project_id": "proj_03",
+      "region": "cluster_test_area",
+      "coordinates": {
+        "lat": 20.700563,
+        "lon": -103.322764
+      },
+      "date": "2026-02-04",
+      "timestamp": "2026-02-04T12:00:00Z",
+      "operator_id": "elena",
+      "priority": "high",
+      "source": "mobile_app",
+      "quality_score": 0.83,
+      "metadata": {
+        "photos_count": 3,
+        "notes_count": 2,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 388,
+        "length_m": 125,
+        "estimated_benefit_score": 0.87
+      }
+    },
+    {
+      "id": "int_130",
+      "type": "intervention",
+      "subtype": "zanja",
+      "status": "validated",
+      "project_id": "proj_01",
+      "region": "cluster_test_area",
+      "coordinates": {
+        "lat": 20.699777,
+        "lon": -103.312022
+      },
+      "date": "2026-03-19",
+      "timestamp": "2026-03-19T12:00:00Z",
+      "operator_id": "elena",
+      "priority": "high",
+      "source": "mobile_app",
+      "quality_score": 0.88,
+      "metadata": {
+        "photos_count": 5,
+        "notes_count": 0,
+        "offline_captured": false
+      },
+      "metrics": {
+        "area_m2": 781,
+        "length_m": 31,
+        "estimated_benefit_score": 0.75
+      }
+    }
+  ],
+  "areas": [
+    {
+      "area_id": "zone_a",
+      "name": "Northern Test Polygon",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -103.46,
+              20.79
+            ],
+            [
+              -103.27,
+              20.79
+            ],
+            [
+              -103.27,
+              20.93
+            ],
+            [
+              -103.46,
+              20.93
+            ],
+            [
+              -103.46,
+              20.79
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "area_id": "zone_b",
+      "name": "Central Test Polygon",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -103.43,
+              20.6
+            ],
+            [
+              -103.23,
+              20.6
+            ],
+            [
+              -103.23,
+              20.76
+            ],
+            [
+              -103.43,
+              20.76
+            ],
+            [
+              -103.43,
+              20.6
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "area_id": "zone_c",
+      "name": "Cluster Test Polygon",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -103.34,
+              20.69
+            ],
+            [
+              -103.3,
+              20.69
+            ],
+            [
+              -103.3,
+              20.71
+            ],
+            [
+              -103.34,
+              20.71
+            ],
+            [
+              -103.34,
+              20.69
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "sample_queries": [
+    "What intervention is closest to 20.701,-103.321?",
+    "Which interventions happened within 5km of 20.700,-103.320 during March 2026?",
+    "How many interventions are inside zone_c?",
+    "Show validated interventions in proj_02 near the central polygon.",
+    "Count reforestacion interventions by region."
+  ]
+}

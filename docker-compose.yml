@@ -1,0 +1,29 @@
+version: '3.8'
+services:
+  toroto_db_server:
+    image: postgis/postgis:16-3.4
+    environment:
+      POSTGRES_DB: geo-toroto
+      POSTGRES_USER: toroto_user
+      POSTGRES_PASSWORD: toroto2026
+    ports:
+      - "55432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U toroto_user -d geo-toroto"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  api:
+    build: .
+    platform: linux/arm64
+    ports:
+      - "3001:3000"
+    depends_on:
+      toroto_db_server:
+        condition: service_healthy
+
+volumes:
+  pgdata:
